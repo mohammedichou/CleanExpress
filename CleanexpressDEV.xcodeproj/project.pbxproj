@@ -16,6 +16,9 @@
 		025AF25A2A3D25F300AEFCCF /* CleanexpressDEVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025AF2592A3D25F300AEFCCF /* CleanexpressDEVTests.swift */; };
 		025AF2642A3D25F300AEFCCF /* CleanexpressDEVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025AF2632A3D25F300AEFCCF /* CleanexpressDEVUITests.swift */; };
 		025AF2662A3D25F300AEFCCF /* CleanexpressDEVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025AF2652A3D25F300AEFCCF /* CleanexpressDEVUITestsLaunchTests.swift */; };
+		02AA23242A4201DC0030EF78 /* CloudstorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AA23232A4201DC0030EF78 /* CloudstorageManager.swift */; };
+		02AA23292A42587F0030EF78 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AA23282A42587F0030EF78 /* Car.swift */; };
+		02AA232B2A4386170030EF78 /* LKPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AA232A2A4386170030EF78 /* LKPageControl.swift */; };
 		02AEA9DD2A40545F0003EB90 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02AEA9DC2A40545F0003EB90 /* GoogleService-Info.plist */; };
 		02AEA9E02A40750E0003EB90 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 02AEA9DF2A40750E0003EB90 /* FirebaseAnalytics */; };
 		02AEA9E22A40750E0003EB90 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 02AEA9E12A40750E0003EB90 /* FirebaseAnalyticsOnDeviceConversion */; };
@@ -45,7 +48,6 @@
 		02AEAA122A40750E0003EB90 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 02AEAA112A40750E0003EB90 /* FirebaseStorage */; };
 		02AEAA142A40750E0003EB90 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 02AEAA132A40750E0003EB90 /* FirebaseStorageCombine-Community */; };
 		02AEAA172A41198E0003EB90 /* UIImageviewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AEAA162A41198E0003EB90 /* UIImageviewExtension.swift */; };
-		02AEAA1A2A411D770003EB90 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AEAA192A411D770003EB90 /* FirestoreManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,9 +81,11 @@
 		025AF25F2A3D25F300AEFCCF /* CleanexpressDEVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanexpressDEVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		025AF2632A3D25F300AEFCCF /* CleanexpressDEVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanexpressDEVUITests.swift; sourceTree = "<group>"; };
 		025AF2652A3D25F300AEFCCF /* CleanexpressDEVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanexpressDEVUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02AA23232A4201DC0030EF78 /* CloudstorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudstorageManager.swift; sourceTree = "<group>"; };
+		02AA23282A42587F0030EF78 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		02AA232A2A4386170030EF78 /* LKPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKPageControl.swift; sourceTree = "<group>"; };
 		02AEA9DC2A40545F0003EB90 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		02AEAA162A41198E0003EB90 /* UIImageviewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageviewExtension.swift; sourceTree = "<group>"; };
-		02AEAA192A411D770003EB90 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +206,7 @@
 		02AEA9DB2A3F9B5C0003EB90 /* Objet */ = {
 			isa = PBXGroup;
 			children = (
+				02AA23282A42587F0030EF78 /* Car.swift */,
 			);
 			path = Objet;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				02AEAA162A41198E0003EB90 /* UIImageviewExtension.swift */,
+				02AA232A2A4386170030EF78 /* LKPageControl.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -217,7 +223,7 @@
 		02AEAA182A411D600003EB90 /* manager */ = {
 			isa = PBXGroup;
 			children = (
-				02AEAA192A411D770003EB90 /* FirestoreManager.swift */,
+				02AA23232A4201DC0030EF78 /* CloudstorageManager.swift */,
 			);
 			path = manager;
 			sourceTree = "<group>";
@@ -386,9 +392,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02AA23242A4201DC0030EF78 /* CloudstorageManager.swift in Sources */,
 				025AF2472A3D25F200AEFCCF /* ViewController.swift in Sources */,
-				02AEAA1A2A411D770003EB90 /* FirestoreManager.swift in Sources */,
+				02AA23292A42587F0030EF78 /* Car.swift in Sources */,
 				025AF2432A3D25F200AEFCCF /* AppDelegate.swift in Sources */,
+				02AA232B2A4386170030EF78 /* LKPageControl.swift in Sources */,
 				02AEAA172A41198E0003EB90 /* UIImageviewExtension.swift in Sources */,
 				025AF2452A3D25F200AEFCCF /* SceneDelegate.swift in Sources */,
 			);
